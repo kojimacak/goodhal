@@ -1,344 +1,176 @@
 ﻿@charset "UTF-8";
-
-/*ナビゲーション枠　共通　高さと色*/
-.navi a {
-  color: #000000;
-  text-decoration: none;
-  outline: none;
-  display: block;
-  background-color: #FDD757;
-  height: 140px;
-  text-align: center;
-	margin: 0px;
-}
-/*ナビゲーション枠　共通　文字サイズ*/
-.navi a h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-/*ナビゲーション枠　共通　アイコン色と大きさ*/
-.navi a span {
-  font-size: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #FFFFFF;
-}
-/*ナビゲーション枠　共通　ホバー*/
-.navi a:hover {
-  opacity: 0.8;
-}
-
-/*カラム2　横幅いっぱいに*/
-.col-2{
-	padding: 0px;
-}
-
-
-
-
-/*ナビゲーション枠　共通　高さと色*/
-.service a {
-  color: #FFFFFF;
-  text-decoration: none;
-  outline: none;
-  display: block;
-  background-color: #FDD757;
-  height: 140px;
-  text-align: center;
-  margin-bottom: 20px;
-  padding-top: 30px;
-}
-/*ナビゲーション枠　共通　h2 文字サイズ*/
-.service a h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-/*ナビゲーション枠　共通　h3 文字サイズ*/
-.service a h3 {
-  font-size: 50px;
-  font-weight: bold;
-}
-/*ナビゲーション枠　共通　アイコン色と大きさ*/
-.navi a span {
-  font-size: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #FFFFFF;
-}
-/*ナビゲーション枠　共通　ホバー*/
-.navi a:hover {
-  opacity: 0.8;
-}
-
-.col-12.center{
-	text-align: center;
-}
-
-
-/*ーーーーー以下もとのやつたちーーーーー */
-
-
-.header-image {
-	height: 500px;
-	background-image: url(photo/top/catch09.jpg);
-	background-size: cover;
-	background-position: 65% 30%;
-}
-
-.header-image2 {
-	height: 500px;
-	background-image: url(photo/top/catch12.jpg);
-	background-size: cover;
-	background-position: 65% 30%;
-}
-
-
-.header-image4 {
-	height: 500px;
-	background-image: url(photo/top/catch13.jpg);
-	background-size: cover;
-	background-position: 65% 70%;
-	
-	
-}
-
-.header-image3 {
-	height: 500px;
-	background-image: url(photo/top/catch11.jpg);
-	background-size: cover;
-	background-position: 65% 70%;
-	
-}
-
-
-
-
-
-
-.kiji h1 {
-	font-size: 40px;
-}
-.gaiyou.iconcard.media a {
-	background-color: #7392FF;
-
-}
-.gaiyou.iconcard.refrection a {
-	background-color: #B9FFB7;
-
-}
-
-
-.gaiyou a {
-	color: #000000;
-	text-decoration: none;
-	outline: none;
-	display: block;
-	background-color: #FDD757;
-	height: 250px;
-	text-align: center;
-	margin-top: 10px;
-	
-}
-
-
-
-.gaiyou a:focus {
-	background-color: #EDEDED;
-}
-.gaiyou a h2 {
-	font-size: 20px;
-	font-weight: bold;
-}
-.kiji p {
-	font-size: 16px;
-	padding-bottom: 10px;
-}
-body {
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-}
-.gaiyou.iconcard a span {
-	font-size: 50px;
-	padding-top: 40px;
-	padding-bottom: 10px;
-	color: #FFFFFF;
-	/* [disabled]background-color: #FDD757; */
-}
-.gaiyou.iconcard a:hover {
-	opacity: 0.8;
-}
-
-
-.gaiyou.iconcard.publication a {
-	background-color: #CDDE6C;
-}
-.gaiyou.iconcard.advertisement a {
-	background-color: #F6BBC0;
-}
-.gaiyou.iconcard.web a {
-	background-color: #9CD5DA;
-}
-.sub-midashi {
-	font-weight: bold;
-	font-size: 14px;
-	border-bottom: 2px solid #DDDDDD;
-	padding-bottom: 6px;
-	padding-top: 6px;
-}
-.gaiyou.kiji a  {
-	background-color: #FFFFFF;
-	height: auto;
-}
-.img-fluid.top-img {
-	height: 440px;
-}
-.footer-copyright p {
-	margin-bottom: 0px;
-}
-.gaiyou.iconcard.movie a {
-	background-color: #FDD757;
-}
-.gaiyou.iconcard.art a  {
-	background-color: #FF8383;
-}
-
-
-.col-md-3 {
-	padding-left: 7px;
-	padding-right: 7px;
-}
-.gaiyou.iconcard.intromov a {
-	background-color: #FFA631;
-}
-
-.col-md-6 {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.tweet {
-	padding-left: 50px;
-	padding-right: 50px;
-	border-color: #000000;
-	border-top-width: 2px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-.header-contents {
-	margin-top: 30px;
-}
-.navbar-brand {
-	padding-left: 20px;
-}
-.opa:hover {
-	opacity: 0.8 ;
-
-}
-.text-black{
-	text-decoration: none;
-	
-		
-}
-
-
-
-
-
-
-
-
-@media (min-width: 992px){
-.dropdown:hover > .dropdown-menu{
-  display: block;
-}
-
-
-.dropdown-menu{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-right: 0px;
-	margin-top: 0px;
-	margin-left: 0px;
-	background-color: #F8F9FA;
-	width: 80px;
-	
-}
-
-
-#dropdownMenuButton  {
-	background-color: #F8F9FA;
-	color: #7C7CB3;
-}
-
-	.dropdown .dropdown-menu li {
-	color: #000000;
-	text-decoration: none;
-}
-	
-	
-}
-
-
-
-
-
-
-
-@media (min-width: 1200px){
-.container-fluid {
-	width: 1200px;
-	padding-top: 0px;
-}
-}
-
-.sub-midashi {
-}
-.nav-link   {
-	color: #FF0004;
-}
-
-
-
-.container-fluid.active {
-	padding-top: 40px;
-}
-.row.showcase > .col-md-6:nth-child(odd) {
-}
-
+/*上部のナビゲーション*/
 .nav.nav-news li  {
 	border-bottom: 1px dotted #AAAAAA;
 	padding-left: 0px;
 	padding-right: 0px;
 	color: #000000;
 	width: 100%;
-}.navbar.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 {
-	/* [disabled]text-align: right; */
+	  margin-left: 20px;
 }
 
-.showcase {
+.nav-link {
+    font-size: 15px;
 }
-.catch {
-	color: #FFFFFF;
-	position: absolute;
-	left: 37px;
-	bottom: 300px;
-	background-color: rgba(0,0,0,0.42);
 
-	padding-top: 15px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 15px;
+.width1200{
+	width: 1200px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+/*子要素のdivを横並びにする */
+	display: flex;
+/*子要素のdivを横並びにする */
+	justify-content: space-between;
 }
-h1 {
-	font-size: 35px;
+
+.logo{
+	width: 300px;
 }
+
+/*ナビゲーション枠　共通　高さと色*/
+.navi a {
+  background-color: #E88013;
+  height: 180px;
+}
+/*ナビゲーション枠　共通　文字サイズ*/
+.navi a h2 {
+  font-size: 17px;
+  font-weight: bold;
+}
+/*ナビゲーション枠　共通　アイコン色と大きさ*/
+.navi a span {
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+}
+/*ナビゲーション枠　共通　ホバー*/
+.navi a:hover {
+  opacity: 0.8;
+}
+
+
+
+/*トップ　マージン*/
+.header-contents {
+	margin-top: 30px;
+}
+/*トップ　問合せボタン*/
 .btn.btn-primary {
 	background-color: #FFFF00;
 	color: #000000;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+/*トップ　キャッチ画像１*/
+.header-image {
+	height: 500px;
+	background-image: url("photo/top/catch001.png");
+	background-size: cover;
+	background-position: 65% 70%;
+}
+/*トップ　キャッチ画像2*/
+.header-image2 {
+	height: 500px;
+	background-image: url("photo/top/catch002.png");
+	background-size: cover;
+	background-position: 65% 70%;
+}
+/*トップ　キャッチ画像3*/
+.header-image3 {
+	height: 500px;
+	background-image: url("photo/top/catch003.png");
+	background-size: cover;
+	background-position: 65% 70%;
+}
+/*トップ　キャッチ枠*/
+.catch {
+  color: #FFFFFF;
+  position: absolute;
+  left: 37px;
+  bottom: 100px;
+  background-color: rgba(0,0,0,0.42);
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+/*トップ　文字*/
+.catch p{
+  color: #FFFFFF;
+}
 
 
+/*サービス枠　共通　高さと色*/
+.service a {
+  background-color: #E88013;
+  height: 140px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+/*サービス枠　共通　h2 文字サイズ*/
+.service a h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+/*サービス枠　共通　h3 文字サイズ*/
+.service p {
+    font-size: 20px;
+    font-weight: bold;
+}
 
+/*ニュース*/
+.news{
+    border: 3px dotted #9D9D9D;
+}
+
+/*施工事例　.example*/
+
+/*お客様の声　.voice*/
+
+/*会社概要　.company*/
+
+/*ブログ　文字サイズ　文字色*/
+.blog p {
+    text-align: left;
+	margin-bottom: 0px;
+	 text-align: left;
+}
+
+/*ブログ　文字よせ*/
+.blog h2{
+	 text-align: left;
+}
+/*ブログ　文字よせ*/
+.blog h3{
+	 text-align: right;
+}
+
+
+/*フォーム　文字サイズ　背景色*/
+.form label, .form input[type=text]{
+ display:block;
+}
+/*フォーム　文字サイズ　背景色*/
+.form {
+    border: 3px dotted #9D9D9D;
+}
+
+
+/*リンク　文字サイズ　背景色*/
+.link {
+   padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+}
+
+
+/*フッター*/
+.footer-copyright p {
+	margin-bottom: 0px;
+}
 .footer-info {
 	background-color: #EDEDED;
 	padding-top: 30px;
@@ -350,120 +182,185 @@ h1 {
 	padding-bottom: 22px;
 	color: #FFFFFF;
 }
-.footer-copyright  {
+
+
+
+/*-----共通-----*/
+
+/*カラム2　横幅いっぱいに*/
+.col-2{
+	padding: 0px;
+}
+/*上の余白*/
+.marginbottom20{
+	margin-bottom: 20px;
+}
+/*下の余白*/
+.margintop20{
+	margin-top: 20px;
+}
+/*固定用*/
+.fixed{
+	position: fixed;
+	top: 0; 
+   width: 100%; 
+	height: 80px;
+	background-color: aqua;
+}
+/*固定用*/
+.content{
+    overflow: auto;
+    padding: 50px;
+}
+/*aタグのセット*/
+ a {
+  color: #000000;
+  text-decoration: none;
+  outline: none;
+  display: block;
+  height: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+ a:hover {
+  text-decoration: none;
+}
+
+
+/*pタグの基本セット*/
+p {
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: #000000;
+}
+
+/*全体のフォント*/
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 
 
 
 
-@media (max-width: 500px){
-.gaiyou.iconcard a h2  {
-	font-size: 18px;
+/*-----画面サイズごとの設定-----*/
+
+/*1200px以上*/
+@media (min-width: 1200px){
+.container-fluid {
+	width: 1200px;
+	padding-top: 0px;
 }
-.gaiyou.iconcard a  {
-	height: 230px;
+.width1200{
+	width: 1200px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+/*子要素のdivを横並びにする */
+	display: flex;
 }
-.gaiyou.iconcard a p {
-	font-size: 12px;
+/*上部ナビゲーション*/
+.nav-link {
+   font-size: 20px;
+}
 }
 
-.catch {
-	bottom: 70px;
-	left: 0px;
-	width: 100%;
-	background-color: rgba(0,0,0,0.1);
-	color: #FFFFFF;
+
+/*992px以上*/
+@media (min-width: 992px){
 	
-	font-size: 10px;
+/*ハンバーガーメニュー */
+.dropdown:hover > .dropdown-menu{
+  display: block;
 }
-.catch h1 {
-	font-size: 20px;
-	padding-bottom: 10px;
+.dropdown-menu{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #F8F9FA;
+	width: 80px;
 }
-	
-.btn.btn-primary {
-	background-color: #FFFF00;
+#dropdownMenuButton  {
+	background-color: #F8F9FA;
+	color: #7C7CB3;
+}
+.dropdown .dropdown-menu li {
 	color: #000000;
-	margin-top: 30px;
-	margin-bottom: 15px;
-	font-size: 10px;
+	text-decoration: none;
+}
+}
+
+
+@media (max-width: 992px){
+/*キャッチ画像　スマホ用*/
+.header-image {
+	height: 400px;
+}
+/*キャッチ画像　スマホ用*/
+.header-image2 {
+	height: 400px;
+}
+/*キャッチ画像　スマホ用*/
+.header-image3 {
+	height: 400px;
+}
+}
+
+@media (max-width: 767px){
+/*キャッチ画像　スマホ用*/
+.header-image {
+	height: 300px;
+}
+/*キャッチ画像　スマホ用*/
+.header-image2 {
+	height: 300px;
+}
+/*キャッチ画像　スマホ用*/
+.header-image3 {
+	height: 300px;
+}
+		
+
+}
+
+/*500px以下*/
+@media (max-width: 500px){
 	
+/*ナビゲーション枠 スマホ用*/
+.navi a h2 {
+  font-size: 10px;
+}
+/*ナビゲーション枠 スマホ用*/
+.navi a span {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;	
+	}
+	/*ナビゲーション枠 スマホ用*/
+	.navi a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+		height: 140px;
+	}	
+.logo{
+	width: 250px;
 }
 	
-	
+/*キャッチ画像　スマホ用*/
 .header-image {
 	height: 200px;
-	background-image: url(photo/top/catch09.jpg);
-	background-size: cover;
-	background-position: 65% 30%;
 }
-
+/*キャッチ画像　スマホ用*/
 .header-image2 {
 	height: 200px;
-	background-image: url(photo/top/catch12.jpg);
-	background-size: cover;
-	background-position: 65% 30%;
 }
-
-
-.header-image4 {
-	height: 200px;
-	background-image: url(photo/top/catch13.jpg);
-	background-size: cover;
-	background-position: 65% 70%;
-	
-	
-}
-
+/*キャッチ画像　スマホ用*/
 .header-image3 {
 	height: 200px;
-	background-image: url(photo/top/catch11.jpg);
-	background-size: cover;
-	background-position: 65% 70%;
-	
-}	
-	
-	
-	}
-@media (max-width: 767px){
-.row.header-contents > .col-lg-12 {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.row.main-contents > .col-md-3.col-6 {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.gaiyou.iconcard.media a {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.gaiyou a {
-	margin-top: 0px;
-}
 }
 
-
-
-
-
-@media (min-width: 767px){
-.row.header-contents > .col-lg-12 {
-}
-}
-	
-
-@media (max-width:1100px){
-	.navbar-nav.mr-auto.navtop.menu .nav-item .nav-link {
-	font-size: 14px;
-
-}
-.gaiyou.iconcard {
-	font-size: 14px;
-}
-
-	
-
-	
 }
